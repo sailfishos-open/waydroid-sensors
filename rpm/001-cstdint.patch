@@ -1,0 +1,12 @@
+diff --git a/sensorfw-core/utils/dbus_connection_handle.cpp b/sensorfw-core/utils/dbus_connection_handle.cpp
+index 20f86f8..6d085b0 100644
+--- a/sensorfw-core/utils/dbus_connection_handle.cpp
++++ b/sensorfw-core/utils/dbus_connection_handle.cpp
+@@ -17,6 +17,7 @@
+  * Authored by: Alexandros Frantzis <alexandros.frantzis@canonical.com>
+  */
+ 
++#include <cstdint>
+ #include <utils/dbus_connection_handle.h>
+ 
+ #include <stdexcept>

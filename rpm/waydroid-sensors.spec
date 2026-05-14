@@ -12,6 +12,7 @@ BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Network)
 
 Source0: %{name}-%{version}.tar.gz
+Patch0: 001-cstdint.patch
 
 %description
 Sensors library for Waydroid
