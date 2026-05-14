@@ -1,5 +1,5 @@
 Name: waydroid-sensors
-Version: 0.1.0
+Version: 0.2.0
 Release: 1
 License: GPLv3
 Summary: Waydroid sensors daemon
