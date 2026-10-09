@@ -13,6 +13,8 @@ BuildRequires: pkgconfig(Qt5Network)
 
 Source0: %{name}-%{version}.tar.gz
 Patch0: 001-cstdint.patch
+Patch1: 002-sensorfw-float.patch
+Patch2: 003-timestamps-units.patch
 
 %description
 Sensors library for Waydroid
